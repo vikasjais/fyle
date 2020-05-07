@@ -1,0 +1,516 @@
+@import '../node_modules/antd/dist/antd.css';
+
+.App {
+    background-color: white;
+    height: 2936px;
+    width: 1440px;
+}
+.looking-for-a-lollip {
+    color: #31373D;
+    font-family: AktivGroteskBold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    width: 489px;
+    position: relative;
+    left: 220px;
+    top: 166px;
+}
+
+.body {
+    color: #31373D;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 489px;
+    text-align: left;
+    position: absolute;
+    left: 220px;
+    top: 304px;
+}
+
+.cta-text {
+    color: #ffffff;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+}
+
+.cta-text2 {
+    color: #31373D;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+}
+
+.bg {
+    background-color: #0099FF;
+    border-radius: 3px;
+    width: 220px;
+    height: 48px;
+    position: absolute;
+    left: 215px;
+    top: 388px;
+
+}
+
+.outline {
+    border: 2px solid #0099FF;
+    border-radius: 3px;
+    width: 222px;
+    height: 48px;
+    position: absolute;
+    left: 455px;
+    top: 388px;
+}
+
+.bg1 {
+    background: linear-gradient(44.59deg, #D5E2E9 0%, #EAEEF1 100%);
+    width: 1267px;
+    height: 409px;
+    position: absolute;
+    left: 87px;
+    top: 618px;
+}
+
+.this-is-a-heading-in {
+    color: #31373D;
+    font-family: AktivGroteskBold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    position: absolute;
+    left: 612.5px;
+    top: 653px;
+    text-align: center;
+    width: 216px;
+    height: 68px;
+}
+
+.rectangle {
+    position: absolute;
+    box-shadow: 0 8px 19px #0D000000;
+    left: 371px;
+    top: 759px;
+    width: 698px;
+    height: 513px;
+}
+
+.compare-pricing-today {
+    color: #31373D;
+    font-family: AktivGroteskBold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    position: absolute;
+    left: 595px;
+    top: 1357px;
+}
+
+.lorem-ipsum-is-simpl {
+    color: #8B8E91;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 449px;
+    text-align: center;
+    position: absolute;
+    left: 506px;
+    top: 1393px;
+}
+
+
+.serving {
+    color: #4A4A4A;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: right;
+}
+
+.servingBtn {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+    width: 125px;
+    height: 46px;
+
+}
+
+.servingBtn1 {
+    background-color: #FFFFFF;
+    border: 3px solid #0099FF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    width: 125px;
+    height: 46px;
+}
+
+.annual {
+    color: #31373D;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    width: 72px;
+    text-align: left;
+    position: absolute;
+    left: 623px;
+    top: 1552px;
+}
+
+.monthly {
+    color: #31373D;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    width: 83px;
+    text-align: left;
+    position: absolute;
+    left: 754px;
+    top: 1552px;
+}
+
+.fifty {
+    color: #8B8E91;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 60px;
+    text-align: left;
+    position: absolute;
+    left: 623px;
+    top: 1572px;
+}
+
+
+.switch {
+    position: absolute;
+    left: 693px;
+    top: 1558px;
+    display: inline-block;
+    background-color: #D8D8D8;
+    border-radius: 7px;
+    opacity: 0.6388346354166666;
+    width: 44px;
+    height: 14px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #D8D8D8;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    top: -5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0099FF;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked + .slider {
+    background-color: #D8D8D8;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #D8D8D8;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.slider.round {
+    border-radius: 7px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+    width: 232px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    left: 381px;
+    top: 1629px;
+}
+
+.card1 {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+    width: 232px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    left: 613px;
+    top: 1629px;
+}
+
+.card2 {
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+    width: 214px;
+    height: 230px;
+    position: absolute;
+    left: 845px;
+    top: 1614px;
+}
+
+.lollipop {
+    color: #31373D;
+    font-family: AktivGroteskBold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    left: 44px;
+    top: 41px;
+
+}
+
+.heres-what-our-cust {
+    color: #31373D;
+    font-family: AktivGroteskBold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    position: absolute;
+    left: 523px;
+    top: 1979px;
+}
+
+.bitmap {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 281px;
+    top: 2075px;
+
+}
+
+
+.spanText {
+    color: #8B8E91;
+    font-family: AktivGroteskCorp-MediumItalic;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 22px;
+    width: 364px;
+    position: absolute;
+    left: 691px;
+    top: 2088px;
+}
+
+.raja-ram {
+    color: #31373D;
+    font-family: AktivGroteskBold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    position: absolute;
+    left: 687px;
+    top: 2211px;
+}
+
+.tip-world {
+    color: #31373D;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    position: absolute;
+    left: 687px;
+    top: 2243px;
+}
+
+.dot {
+    cursor: pointer;
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+    background-image: linear-gradient(221.9deg, #D5E2E9 0%, #EAEEF1 100%);
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-right: 14px;
+}
+
+.dot1 {
+    cursor: pointer;
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+    background-color: #0099FF;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-right: 14px;
+}
+
+.dotDiv {
+    position: absolute;
+    left: 701px;
+    top: 2351px;
+}
+
+.loved-by-users-reco-copy-2 {
+    color: #31373D;
+    font-family: AktivGroteskBold;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    position: absolute;
+    left: 333px;
+    top: 2540px;
+
+}
+
+.lorem-ipsum-is-simpl1 {
+    color: #8B8E91;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.shape {
+    background-color: #0099FF;
+    border-radius: 3px;
+    width: 220px;
+    height: 48px;
+    position: absolute;
+    left: 333px;
+    top: 2746px;
+}
+
+.suitcase {
+    position: absolute;
+    left: 886px;
+    top: 2480px;
+}
+
+.globe{
+    position: absolute;
+    top:150px;
+    right:251px;
+    width:281px;
+    height: 331px
+}
+
+.lollipop-price{
+    color: #3D3C31;
+    font-family: AktivGroteskBold;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    position: absolute;
+    top: 97px;
+    left: 44px;
+}
+
+.body-copy-35 {
+    color: #8B8E91;
+    font-family: AktivGroteskCorp-Italic;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    position: absolute;
+    top: 107px;
+    left: 119px;
+
+}
+.body-copy-5 {
+    color: #31373D;
+    font-family: AktivGroteskCorp-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    position: absolute;
+    top: 129px;
+    left: 44px;
+
+}
+
+.icecandy {
+    color: #31373D;
+    font-family: AktivGroteskBold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    top: 41px;
+    left: 44px;
+}
+.your-savings-with-lo {
+    color: #31373D;
+    font-family: AktivGroteskBold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    top: 50px;
+    left: 23px;
+}
+.acd {
+    color: #0099FF;
+    font-family: AktivGroteskBold;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    position: absolute;
+    top: 118px;
+    left: 23px;
+}
+
+.body-copy-37 {
+    color: #8B8E91;
+    font-family: AktivGroteskCorp-Italic;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    position: absolute;
+    top: 151px;
+    left: 24px;
+
+}
