@@ -15,9 +15,7 @@ class App extends Component {
 
     render() {
         return (
-                <div style={{
-                    backgroundColor: 'white',
-                }}>
+                <div className={'App'}>
                     <File />
                 </div>
         );

@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Button, Col, Row} from 'antd';
+import {Button} from 'antd';
 import BG from './../images/BG.png'
 import Group from './../images/Group 6.png'
 import guy from './../images/guy.png'
@@ -90,27 +90,23 @@ export default class File extends Component {
     render() {
         console.log(this.state);
         return <div>
-            <Row>
-                <Col xl={12} lg={12} md={6} sm={6} xs={3}>
-                    <div>
+
+            <div>
             <span className={"looking-for-a-lollip"}>
                 Looking for a
                 lollipop alternative?
             </span>
-                        <span className={"body"}>
+                <span className={"body"}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s.
             </span>
-                        <Button type={"primary"} className={"bg"}><span
-                            className={"cta-text"}>Primary CTA</span></Button>
-                        <Button type={"secondary"} className={"outline"}><span
-                            className={"cta-text2"}>Secondary CTA</span></Button>
-                    </div>
-                </Col>
-                <Col xl={12} lg={12} md={6} sm={6} xs={3}>
-                    <img className={'globe'} src={globe}/>
-                </Col>
-            </Row>
+                <Button type={"primary"} className={"bg"}><span
+                    className={"cta-text"}>Primary CTA</span></Button>
+                <Button type={"secondary"} className={"outline"}><span
+                    className={"cta-text2"}>Secondary CTA</span></Button>
+            </div>
+
+            <img className={'globe'} src={globe}/>
 
             <img src={BG} className={"bg1"}/>
             <p className={"this-is-a-heading-in"}>
