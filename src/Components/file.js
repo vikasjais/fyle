@@ -91,7 +91,7 @@ export default class File extends Component {
         console.log(this.state);
         return <div>
             <Row>
-                <Col xl={12} lg={12} md={24} sm={24} xs={24}>
+                <Col xl={12} lg={12} md={6} sm={6} xs={3}>
                     <div>
             <span className={"looking-for-a-lollip"}>
                 Looking for a
@@ -107,12 +107,11 @@ export default class File extends Component {
                             className={"cta-text2"}>Secondary CTA</span></Button>
                     </div>
                 </Col>
-                <Col xl={12} lg={12} md={24} sm={24} xs={24}>
+                <Col xl={12} lg={12} md={6} sm={6} xs={3}>
                     <img className={'globe'} src={globe}/>
                 </Col>
             </Row>
 
-            {/*
             <img src={BG} className={"bg1"}/>
             <p className={"this-is-a-heading-in"}>
                 This is a heading in
@@ -216,7 +215,6 @@ export default class File extends Component {
             </div>
             <Button type={"primary"} className={"shape"}><span className={"cta-text"}>Primary CTA</span></Button>
             <img className={'suitcase'} src={Group4}/>
-            */}
         </div>
     }
 }
